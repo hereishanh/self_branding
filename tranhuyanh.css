@@ -29,7 +29,7 @@ nav.scrolled{background:rgba(26,15,10,.92);backdrop-filter:blur(12px);padding:18
 .hero-title{font-family:'Playfair Display',serif;font-size:clamp(2.8rem,5vw,5rem);font-weight:700;color:var(--white);line-height:1.08;margin-bottom:28px;opacity:0;animation:fadeUp .9s .5s forwards}
 .hero-title em{font-style:italic;color:var(--gold-lt)}
 .hero-sub{font-size:1.25rem;font-style:italic;color:rgba(255,255,255,.65);max-width:520px;line-height:1.7;margin-bottom:48px;opacity:0;animation:fadeUp .9s .7s forwards}
-.cta-btn{display:inline-block;padding:16px 44px;border:1px solid var(--gold);color:var(--gold);font-family:'Cormorant Garamond',serif;font-size:.9rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;transition:background .3s,color .3s;opacity:0;animation:fadeUp .9s .9s forwards}
+.cta-btn{display:inline-block;align-self:flex-start;padding:14px 30px;border:1px solid var(--gold);color:var(--gold);font-family:'Cormorant Garamond',serif;font-size:.9rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;transition:background .3s,color .3s;opacity:0;animation:fadeUp .9s .9s forwards}
 .cta-btn:hover{background:var(--gold);color:var(--espresso)}
 .scroll-hint{position:absolute;bottom:36px;right:60px;z-index:3;display:flex;align-items:center;gap:12px;color:rgba(255,255,255,.35);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase}
 .scroll-line{width:50px;height:1px;background:rgba(255,255,255,.2);position:relative;overflow:hidden}
